@@ -567,6 +567,7 @@ class FaresApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: BoxDemo(),
+      color: Colors.blue,
     );
   }
 }
