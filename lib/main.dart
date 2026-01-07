@@ -606,6 +606,7 @@ class _BoxDemoState extends State<BoxDemo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("FaresApp"),backgroundColor: Colors.blue,centerTitle: true,),
+
       body: showPeople(),
     );
   }
