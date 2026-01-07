@@ -568,6 +568,7 @@ class FaresApp extends StatelessWidget {
     return MaterialApp(
     debugShowCheckedModeBanner: false,
       home: BoxDemo(),
+      color: Colors.blue,
     );
   }
 }
